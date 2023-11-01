@@ -1,0 +1,6 @@
+<div *ngFor="let item of personas"class="contenedor">
+    <ul>
+    <li>{{item.nombre}} {{item.apellido}} edad: {{item.edad}}</li>
+    </ul>
+    <button (click)="eliminarPersona(item)">eliminar</button>
+</div>
