@@ -1,11 +1,19 @@
-.contenedor{
+.contenedor {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 2rem;
+    flex-direction: column;
+}
+
+h2 {
+    background-color: aqua;
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 1rem;
 }
 button{
-    width: 7rem;
+    width: 20rem;
     height: 2rem;
     border-color: aqua;
     border-radius: 1rem;
@@ -13,6 +21,6 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: red;
+    background-color: green;
     color: white;
 }
